@@ -22,8 +22,11 @@ The project was developed using python 3.8.3 with the following packages.
 
 
 ## Files
-- /notebook/Car_Price_IMP_Feature_Prediction.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling and inference.
-- /data/ : The source data and data dictionary.
+- notebook/Car_Price_IMP_Feature_Prediction_LinearRegression_Ridge_and_Lasso.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling using Multiple Linear Regression, further applying Ridge and Lasso Regularization and finally inference.
+
+- notebook/Car_Price_Prediction_XGBoost_Regression.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling using XGBoost Regression to achieve better R2 score and inference.
+
+- data/ : The source data and data dictionary.
 
 
 ## Acknowledgements
