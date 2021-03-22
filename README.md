@@ -1,5 +1,12 @@
 # Car Price Prediction
 
+A Web App to predict the price of a car based on its features.
+
+App is deployed in Heroku, hit the link to access it : [Open in Heroku](https://car-price-prediction--app.herokuapp.com/)
+
+
+## Summary
+
 An automobile company outisde US aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts.
 
 They have contracted an automobile consulting company to understand the factors on which the pricing of cars depends. Specifically, they want to understand the factors affecting the pricing of cars in the American market, since those may be very different from the Chinese market. The company wants to know:
