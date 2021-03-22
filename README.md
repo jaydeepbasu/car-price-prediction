@@ -38,15 +38,23 @@ Open the terminal in you machine and run the following command to access the web
 streamlit run app.py
 ```
 
+## Run on Docker
+Alternatively if you want you can build the Docker image and run it on a container and access the application at `localhost:8051` on your browser.
+```bash
+docker build --tag carpricepredictionapp:1.0 .
+docker run --publish 8051:8051 -it carpricepredictionapp:1.0
+```
+
 ## Files
 - notebook/Car_Price_IMP_Feature_Prediction_LinearRegression_Ridge_and_Lasso.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling using Multiple Linear Regression, further applying Ridge and Lasso Regularization and finally inference.
 
-- notebook/Car_Price_Prediction_XGBoost_Regression.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling using XGBoost Regression to achieve better R2 score and inference.
+- notebook/Car_Price_Prediction_XGBoost_Regression.ipynb : Jupyter Notebook with all the workings including pre-processing, modelling using XGBoost Regression to achieve better R2 score and inference. Used this model to create the app as it gives better R2 score on test data.
 
 - app.py : Streamlit App script
 - requirements.txt : pre-requiste libraries for the project
 - models/ : trained model, scaler and one hot encoding objects
 - data/ : The source data and data dictionary.
+- Dockerfile : To create the Docker image.
 - setup.sh : Setup file for Heroku.
 - Procfile : To trigger the app in Heroku.
 
