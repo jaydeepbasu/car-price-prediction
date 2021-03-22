@@ -6,10 +6,8 @@
 
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import streamlit as st
 import joblib
-import pandas as pd
 from PIL import Image
 from sklearn.preprocessing import StandardScaler
 
